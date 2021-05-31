@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_DeadlinesAddNewItem"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/myBlue"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/toolbar_DeadlinesAddNewItem">
+
+            <EditText
+                android:id="@+id/editTxt_newDeadlineDescription"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your deadline description"/>
+
+            <Button
+                android:id="@+id/btn_newDeadlineDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTxt_newDeadlineDescription"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="16dp"
+                android:drawableLeft="@drawable/ic_deadlines_date_icon"
+                android:hint="Pick Date"
+                />
+
+            <Button
+                android:id="@+id/btn_newDeadlineTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/editTxt_newDeadlineDescription"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:drawableLeft="@drawable/ic_deadline_time_icon"
+                android:hint ="Pick Time"
+                />
+
+            <EditText
+                android:id="@+id/editTxt_newDeadlineHourReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_newDeadlineDate"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:hint ="How many hours before you want to get reminded?"
+                />
+        </RelativeLayout>
+</RelativeLayout>

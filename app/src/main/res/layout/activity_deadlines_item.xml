@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:elevation="8dp"
+        card_view:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/txtView_deadlinesItemDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Description"/>
+
+            <TextView
+                android:id="@+id/txtView_deadlinesItemDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtView_deadlinesItemDescription"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#cc0000"
+                android:hint="Date Not Set"/>
+
+            <TextView
+                android:id="@+id/txtView_deadlinesItemTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtView_deadlinesItemDescription"
+                android:layout_toRightOf="@+id/txtView_deadlinesItemDate"
+                android:layout_marginLeft="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#cc0000"
+                android:hint="Time Not Set"/>
+
+            <TextView
+                android:id="@+id/txtView_deadlinesItemReminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtView_deadlinesItemDescription"
+                android:layout_toRightOf="@+id/txtView_deadlinesItemTime"
+                android:layout_marginLeft="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#cc0000"
+                android:hint="Reminder Not Set"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

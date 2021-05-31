@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:datePickerDialogTheme" >@style/MyDatePickerDialogStyle</item>
+        <item name="android:timePickerDialogTheme" >@style/MyTimePickerDialogStyle</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.customTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:elevation">50dp</item>
+    </style>
+
+    <style name="MyDatePickerDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/myBlue</item>
+        <item name="android:textColorPrimaryInverse">@color/myWhite</item>
+        <item name="android:textColorSecondaryInverse">@color/myBlue</item>
+        <item name="buttonBarButtonStyle">@color/myBlue</item>
+        <item name="android:colorControlHighlight">@color/myBlue</item>
+        <item name="android:colorControlActivated">@color/myBlue</item>
+    </style>
+
+    <style name="MyTimePickerDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/myBlue</item>
+        <item name="android:textColorPrimaryInverse">@color/myWhite</item>
+        <item name="android:textColorSecondaryInverse">@color/myWhite</item>
+        <item name="buttonBarButtonStyle">@color/myBlue</item>
+        <item name="android:colorControlHighlight">@color/myBlue</item>
+        <item name="android:colorControlActivated">@color/myBlue</item>
+    </style>
+</resources>

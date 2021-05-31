@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jansmoneymachine.timetablestudents">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Student Organizer"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Main.MainPopUpWork"
+            android:theme="@style/AppTheme.customTheme"></activity>
+        <activity android:name=".Main.MainPopUpAbout"
+            android:theme="@style/AppTheme.customTheme"/>
+        <activity android:name=".Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimeTable.WeekOverview.WeekActivity" />
+        <activity android:name=".TimeTable.DayOverview.MondayActivity" />
+        <activity android:name=".TimeTable.DayOverview.TuesdayActivity" />
+        <activity android:name=".TimeTable.DayOverview.WednesdayActivity" />
+        <activity android:name=".TimeTable.DayOverview.ThursdayActivity" />
+        <activity android:name=".TimeTable.DayOverview.FridayActivity" />
+        <activity android:name=".TimeTable.DayOverview.SaturdayActivity" />
+        <activity android:name=".GroceryList.GroceryList" />
+        <activity android:name=".Notes.Notes" />
+        <activity android:name=".Deadlines.Deadlines" />
+        <activity android:name=".Deadlines.DeadlinesAddNewDeadlineItem" />
+        <receiver android:name=".Deadlines.DeadlinesAlarmReceiver" android:process=":remote"/>
+    </application>
+
+</manifest>

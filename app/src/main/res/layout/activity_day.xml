@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main.MainActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_Day"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/myBlue"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="32dp">
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName0"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom0"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf0"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="08:00 - 09:30 "
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="09:50 - 11:20 "
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="11:30 - 13:00"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="14:00 - 15:30"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf4"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="15:45 - 17:15"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf5"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="17:25 - 18:55"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/colorAccent"
+                android:elevation="8dp"
+                card_view:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectName6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Subject Name"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:background="@android:color/transparent"/>
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectRoom6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectName6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:hint="Room"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+
+                    <EditText
+                        android:id="@+id/editTxt_subjectProf6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectRoom6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Professor"
+                        android:textSize="14sp"
+                        android:background="@android:color/transparent"/>
+
+                    <TextView
+                        android:id="@+id/txtView_subjectTime6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/editTxt_subjectProf6"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="2dp"
+                        android:text="19:00 - 20:30"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
