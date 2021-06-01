@@ -17,12 +17,14 @@ In this category the user is able to set certain deadlines and choose when to ge
 
 ## Notes
 Here the user can create, edit and delete note cards. The button in the top right corner allows to create a new one, while clicking one of the cards opens a context menu to edit or delete them.
+
 <img src="https://user-images.githubusercontent.com/56250123/120300396-2d0ee580-c2cc-11eb-9d99-254d566b0632.png" width="300">
 <img src="https://user-images.githubusercontent.com/56250123/120300398-2da77c00-c2cc-11eb-90d9-8c35fa9fee6c.png" width="300">
 <img src="https://user-images.githubusercontent.com/56250123/120300400-2da77c00-c2cc-11eb-82c4-81821a0a722e.png" width="300">
 
 ## Grocery List
 The Grocery List contains a list of items which can be individually striked through or deleted, which opens the possibility to not delete items and add them again, when they are are often bought. Again the button in the top right corner allows the user to add a new item to the grocery list. The grocery list can also be shared with the usual options.
+
 <img src="https://user-images.githubusercontent.com/56250123/120300891-a60e3d00-c2cc-11eb-92e3-b361191fbcd0.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/56250123/120300898-a73f6a00-c2cc-11eb-8e76-e6c0fe228ff9.jpg" width="300">
 
